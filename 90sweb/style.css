@@ -1,0 +1,81 @@
+.clickable-text {
+    color: #fccc47;
+    text-decoration: underline;
+    cursor: pointer;
+    text-align: center;
+}
+
+.clickable-text:hover {
+  color: #6b91fa;
+  text-shadow: 3px 4px 6px black;
+}
+
+.bold {
+  font-size: 20px;
+  font-weight: 1000;
+}
+
+.image-shadow {
+  width: 300px;
+  height: auto;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.text-row {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.text-row2 {
+  display: flex;
+  justify-content: center;
+  gap: 3px;
+  margin-top: 50px;
+}
+
+body {
+    background-color: #174fd1;
+    color: #fccc47;
+    transform: scale(0.9);
+    transform-origin: top center;
+}
+
+.great-vibes-regular {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+    font-family: "Great Vibes", sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+  font-size: 15px;
+  text-align: center;
+}
+
+
+footer {
+  text-align: center;
+  font-size: 10px;
+}
+
+.rotate-image {
+  height: 200;
+  transform: rotate(-35deg);
+}
+
+.down-push {
+  margin-top: 50px; 
+}
+
+.right-push {
+  margin-right: 15px;
+}
